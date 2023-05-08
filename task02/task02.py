@@ -13,8 +13,8 @@ for line in f.readlines():
 
 # Citim linie cu linie
 
-	if no_of_chars < len(line):
-		no_of_chars = len(line)
+	if no_of_chars < len(line.strip("\n")):
+		no_of_chars = len(line.strip("\n"))
 		word = line
 
 print("Cuvantul care contine cele mai multe caractere este %s" % word)
