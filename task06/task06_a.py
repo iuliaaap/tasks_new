@@ -1,5 +1,3 @@
-import re
-
 vowels = 'aeiouAEIOU'
 
 given_str = input("Enter a string : ")
